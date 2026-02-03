@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+v<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,29 +9,25 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <link rel="stylesheet" href="style.css">
-   
 </head>
 <body>
     <div id="particles-js"></div>
     <div class="floating-hearts" id="floatingHearts"></div>
     <div class="petals" id="petalsContainer"></div>
     
-    
     <div class="container">
         <div class="progress-bar">
             <div class="progress" id="progressBar"></div>
         </div>
 
-        <!-- Step 1: Greeting -->
         <div class="step" id="step1">
-            <h1>Happy Birthday, Prince !</h1>
+            <h1>Happy Birthday, Prince!</h1>
             <p>I've created something magical just for you.</p>
             <p>Are you ready to begin this special journey?</p>
-            <img src="https://png.pngtree.com/png-vector/20250422/ourmid/pngtree-cute-girl-holding-birthday-cake-smiling-cheerfully-png-image_16067658.png" style="height: 200px;width: 200px;" alt="">
+            <img src="https://png.pngtree.com/png-vector/20250422/ourmid/pngtree-cute-girl-holding-birthday-cake-smiling-cheerfully-png-image_16067658.png" style="height: 200px;width: 200px;" alt="Birthday Cake">
             <button class="btn" onclick="nextStep()">Open Your Gift</button>
         </div>
 
-        <!-- Step 2: Name Input -->
         <div class="step" id="step2">
             <h2>Let's Make This Personal</h2>
             <p>What's the name of the most Handsome birthday boy in the world?</p>
@@ -39,46 +35,34 @@
             <button class="btn" onclick="saveName()">Continue</button>
         </div>
 
-        <!-- Step 3: Heart Animation -->
         <div class="step" id="step3">
             <h2>For You, <span id="displayName">My Love</span></h2>
             <p>Click on the heart!</p>
             <div class="heart" id="interactiveHeart" onclick="createHearts()"></div>
             <div id="heartMessage" class="message-box">
-                <p>May Allah this year of your life be beautiful, <span id="heartName">my love</span>.</p>
+                <p>May Allah make this year of your life beautiful, <span id="heartName">my love</span>.</p>
             </div>
             <button class="btn" onclick="nextStep()">Continue to Your Message</button>
         </div>
 
-        <!-- Step 4: Birthday Message -->
         <div class="step" id="step4">
-            <h2> Special Message For You</h2>
+            <h2>Special Message For You</h2>
             <div class="photo-frame">
-                <!-- Replace with your image path -->
-                 <img src="https://png.pngtree.com/png-vector/20250422/ourmid/pngtree-cute-girl-holding-birthday-cake-smiling-cheerfully-png-image_16067658.png" style="height: 200px;width: 200px;" alt="">
-            </div>
-            
+                 <img src="https://png.pngtree.com/png-vector/20250422/ourmid/pngtree-cute-girl-holding-birthday-cake-smiling-cheerfully-png-image_16067658.png" style="height: 200px;width: 200px;" alt="Prince">
             </div>
             <button class="btn" onclick="nextStep()">See Your Surprise</button>
         </div>
 
-        <!-- Step 5: Memory Lane -->
         <div class="step" id="step5">
-            <h2>It's </h2>
+            <h2>It's Your Day</h2>
             <p>Your Birthday Wish...</p>
-            
-            </div>
             <button class="btn" onclick="nextStep()">Your Final Surprise</button>
         </div>
 
-        <!-- Step 6: Final Wish -->
         <div class="step" id="step6">
             <h1>🎉 Happy Birthday, <span id="finalName">My Love 💖</span>! 🎂</h1>
-        
-            <p>✨ Happy Birthday, Brother🥳 !  Lucky to have a brother like you. May this year bring you closer to your dreams, stay happy, and keep shining.✨</p>
-           
-            <div class=" HAPPY BIRTHDAY</div>
-        
+            <p>✨ Happy Birthday, Brother🥳! Lucky to have a brother like you. May this year bring you closer to your dreams, stay happy, and keep shining.✨</p>
+            
             <div class="social-share">
                 <div class="social-icon" onclick="shareOnSocial('facebook')" title="Share on Facebook">
                     <i class="fab fa-facebook-f"></i>
@@ -91,8 +75,7 @@
                 </div>
             </div>
         </div>
-        
     </div>
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
